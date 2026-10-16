@@ -3,6 +3,9 @@
   "PP.PracticalTools.Enabled.Hint": "Praktyczne narzędzie rzemieślnicze (cecha Praktyczny) daje +1 PS przy nieudanym teście Rzemiosła, gdy specjalizacja w nazwie narzędzia (w nawiasie) zgadza się ze specjalizacją umiejętności. Nawias „(Rzemiosło dowolne)” / „(dowolne)” pasuje do każdej specjalizacji.",
   "PP.PracticalTools.Note": "Praktyczne narzędzie ({spec}): +1 PS",
 
+  "PP.Artistic.Enabled.Name": "Talent Artystyczny: Sztuka w Profesji",
+  "PP.Artistic.Enabled.Hint": "Talent Artystyczny dodaje Sztukę postaci do bieżącej Profesji (rozwijanie po zwykłym koszcie PD), a jeśli Sztuka już w niej jest — każde Rozwinięcie kosztuje 5 PD mniej. Sztukę z wybraną specjalizacją trzeba mieć na karcie. Zmiana wymaga przeładowania.",
+
   "PP.Poison.Enabled.Name": "Zatrucie: test Odporności na koniec Rundy",
   "PP.Poison.Enabled.Hint": "Na koniec każdej Rundy (lub Tury, jeśli system liczy Zatrucie na Tury) zatruta postać dostaje w czacie przypomnienie z przyciskami: Test Odporności (Wymagający +0) i Test Leczenia (inna postać). Sukces zdejmuje 1 poziom Zatrucia + 1 za każdy PS.",
   "PP.Poison.Mode.Name": "Zatrucie: otwieranie okna testu",

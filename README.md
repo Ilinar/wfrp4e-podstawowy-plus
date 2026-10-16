@@ -3,13 +3,14 @@
 Zbiór **reguł domowych z podręcznika podstawowego** do **Warhammer Fantasy Roleplay 4e**
 (Foundry VTT). Każdą regułę można włączać/stosować niezależnie. Nie wymaga `lib-wrapper`.
 
-Obecnie moduł zawiera pięć reguł:
+Obecnie moduł zawiera sześć reguł:
 
 1. **Same Kości** — koścista natura szkieletów,
 2. **Praktyczne narzędzia** — premia do testów Rzemiosła praktycznym narzędziem,
 3. **Zatrucie** — test Odporności na koniec Rundy oraz utrata przytomności i śmierć po BWt Rundach,
 4. **Oszołomienie** — przypomnienie na początku Tury o braku Akcji i Test Odporności na koniec Rundy,
-5. **Sieczna** (z „Do broni!”) — Krwawienie przy Ranie Krytycznej i dodatkowe Krwawienie za Przewagi.
+5. **Sieczna** (z „Do broni!”) — Krwawienie przy Ranie Krytycznej i dodatkowe Krwawienie za Przewagi,
+6. **Talent Artystyczny** — Sztuka w każdej Profesji albo −5 PD za Rozwinięcie.
 
 Moduł dostarcza jedno kompendium **„Podstawowy+ (WFRP4e)”** z gotową cechą
 **„Same Kości”** oraz gotowym przedmiotem **„Praktyczne narzędzia pracy (Rzemiosło dowolne)”**.
@@ -210,6 +211,37 @@ Cechę Sieczna definiuje moduł **„Do broni!” (Up in Arms)**. Bez niego modu
 
 - **Sieczna: Krwawienie przy Ranie Krytycznej** (domyślnie włączone).
 - **Sieczna: przycisk Przewag** (domyślnie włączone).
+
+---
+
+## Reguła 6 — Talent Artystyczny
+
+> Co więcej, dodajesz Umiejętność **Sztuka (Dowolna)** do swojej każdej bieżącej Profesji, a jeśli
+> znajduje się ona na liście, koszt każdego Rozwinięcia spada o **5 PD**.
+
+Talent z kompendium systemu daje tylko premię do testów Sztuki — Sztuki nie dopisuje do Profesji,
+więc Foundry liczy jej rozwinięcia jak umiejętności spoza Profesji (**podwójny koszt PD**). Talenty
+Rzemieślnik i Słuch Absolutny mają do tego skrypt; moduł robi dla Talentu Artystycznego to samo:
+
+- Sztuka postaci **spoza Profesji** → trafia do bieżącej Profesji: znacznik na karcie, przycisk
+  rozwinięcia w zakładce Profesji i zwykły koszt PD.
+- Sztuka **już w Profesji** → każde Rozwinięcie kosztuje **5 PD mniej**. Wpis „Sztuka (Dowolna)”
+  w Profesji też się liczy (system porównuje nazwy dosłownie, więc sam by go nie uznał).
+- Działa dla każdej kolejnej Profesji — liczy się zawsze ta bieżąca.
+
+### Jak używać
+
+1. Daj postaci **Talent Artystyczny** (z kompendium albo własny o tej nazwie).
+2. Przeciągnij na kartę **Sztukę z wybraną specjalizacją**, np. *Sztuka (Malarstwo)* — talent jej
+   nie tworzy, tylko wpina do Profesji.
+
+Talent daje jedną Sztukę: gdy postać ma ich kilka, liczy się ta, która już jest w Profesji, a jeśli
+żadna — ta z największą liczbą Rozwinięć. Jeśli efekt talentu ma już własny skrypt *Prepare Data*
+(np. wklejony ręcznie), moduł nic nie robi, żeby nie dublować.
+
+### Ustawienie
+
+- **Talent Artystyczny: Sztuka w Profesji** (świat, domyślnie włączone; zmiana wymaga przeładowania).
 
 ---
 

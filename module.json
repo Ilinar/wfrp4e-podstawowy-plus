@@ -1,11 +1,11 @@
 {
   "id": "wfrp4e-bare-bones",
   "title": "WFRP4e: Podstawowy+",
-  "description": "Zbiór reguł domowych z podręcznika podstawowego WFRP4e. Obecnie: (1) „Same Kości” — oznaczone stworzenia (szkielety) otrzymują -1 punkt Obrażeń do Ran od ataków bez cechy Ogłuszająca (Pummel); (2) „Praktyczne narzędzia” — praktyczne narzędzie rzemieślnicze daje +1 PS przy nieudanym teście Rzemiosła, gdy pasuje do specjalizacji (w komplecie gotowy przedmiot „Praktyczne narzędzia pracy (Rzemiosło dowolne)”); (3) „Zatrucie” — na koniec Rundy przypomnienie i okno Testu Odporności (sukces zdejmuje 1 + PS poziomów), a do tego licznik Rund na 0 Żywotności: po BWt Rundach Utrata Przytomności, po kolejnych BWt Test Odporności o życie (kolejne testy wg ustawienia: co BWt Rund, co Rundę albo za 1 + PS Rund); (4) „Oszołomienie” — na początku Tury oszołomionej postaci przypomnienie o braku Akcji (karta w czacie i/lub powiadomienie), a na koniec Rundy Test Odporności (sukces zdejmuje 1 + PS poziomów); (5) „Sieczna” (z „Do broni!”) — Rana Krytyczna bronią Sieczną nadaje 1 poziom Krwawienia, a przycisk w czacie pozwala wydać X Przewag na dodatkowe Krwawienie. Bez wymaganych zależności.",
-  "version": "1.5.2",
+  "description": "Zbiór reguł domowych z podręcznika podstawowego WFRP4e. Obecnie: (1) „Same Kości” — oznaczone stworzenia (szkielety) otrzymują -1 punkt Obrażeń do Ran od ataków bez cechy Ogłuszająca (Pummel); (2) „Praktyczne narzędzia” — praktyczne narzędzie rzemieślnicze daje +1 PS przy nieudanym teście Rzemiosła, gdy pasuje do specjalizacji (w komplecie gotowy przedmiot „Praktyczne narzędzia pracy (Rzemiosło dowolne)”); (3) „Zatrucie” — na koniec Rundy przypomnienie i okno Testu Odporności (sukces zdejmuje 1 + PS poziomów), a do tego licznik Rund na 0 Żywotności: po BWt Rundach Utrata Przytomności, po kolejnych BWt Test Odporności o życie (kolejne testy wg ustawienia: co BWt Rund, co Rundę albo za 1 + PS Rund); (4) „Oszołomienie” — na początku Tury oszołomionej postaci przypomnienie o braku Akcji (karta w czacie i/lub powiadomienie), a na koniec Rundy Test Odporności (sukces zdejmuje 1 + PS poziomów); (5) „Sieczna” (z „Do broni!”) — Rana Krytyczna bronią Sieczną nadaje 1 poziom Krwawienia, a przycisk w czacie pozwala wydać X Przewag na dodatkowe Krwawienie; (6) „Talent Artystyczny” — talent naprawdę dodaje Sztukę postaci do bieżącej Profesji (zwykły koszt PD), a gdy Sztuka już w niej jest, każde Rozwinięcie kosztuje 5 PD mniej. Bez wymaganych zależności.",
+  "version": "1.6.0",
   "authors": [{ "name": "Ilinar", "url": "https://github.com/Ilinar" }],
   "compatibility": { "minimum": "12", "verified": "14" },
-  "esmodules": ["scripts/main.js", "scripts/practical-tools.js", "scripts/poison.js", "scripts/stunned.js", "scripts/slash.js"],
+  "esmodules": ["scripts/main.js", "scripts/practical-tools.js", "scripts/poison.js", "scripts/stunned.js", "scripts/slash.js", "scripts/artistic.js"],
   "socket": true,
   "languages": [
     { "lang": "pl", "name": "Polski", "path": "lang/pl.json" },
@@ -26,5 +26,5 @@
   },
   "url": "https://github.com/Ilinar/wfrp4e-podstawowy-plus",
   "manifest": "https://github.com/Ilinar/wfrp4e-podstawowy-plus/releases/latest/download/module.json",
-  "download": "https://github.com/Ilinar/wfrp4e-podstawowy-plus/releases/download/v1.5.2/module.zip"
+  "download": "https://github.com/Ilinar/wfrp4e-podstawowy-plus/releases/download/v1.6.0/module.zip"
 }

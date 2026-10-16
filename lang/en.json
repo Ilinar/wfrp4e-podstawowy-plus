@@ -3,6 +3,9 @@
   "PP.PracticalTools.Enabled.Hint": "A practical trade tool (Practical quality) grants +1 SL on a failed Trade test when the specialisation in the tool's name (in parentheses) matches the skill's specialisation. A parenthesis containing \"any\" / \"*\" (or Polish \"dowolne\") matches any specialisation.",
   "PP.PracticalTools.Note": "Practical tool ({spec}): +1 SL",
 
+  "PP.Artistic.Enabled.Name": "Artistic talent: Art in Career",
+  "PP.Artistic.Enabled.Hint": "The Artistic talent adds the character's Art skill to the current Career (advanced at the normal XP cost); if Art is already in the Career, each Advance costs 5 XP less. The character must own the Art skill with a chosen specialisation. Changing this requires a reload.",
+
   "PP.Poison.Enabled.Name": "Poisoned: Endurance Test at end of Round",
   "PP.Poison.Enabled.Hint": "At the end of every Round (or Turn, if the system counts Poisoned per Turn) a poisoned character gets a chat reminder with buttons: Endurance Test (Challenging +0) and Heal Test (another character). Success removes 1 Poisoned Condition + 1 per SL.",
   "PP.Poison.Mode.Name": "Poisoned: test dialog opening",
