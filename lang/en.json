@@ -88,5 +88,19 @@
   "PP.Slash.NotOwner": "Only the owner of the attacking character can spend the Advantage.",
   "PP.Slash.NoAdvantage": "{name}: not enough Advantage (have {have}, need {need}).",
   "PP.Slash.NoGM": "An active GM is required to apply Bleeding.",
-  "PP.Slash.NoActor": "Attacker or defender not found."
+  "PP.Slash.NoActor": "Attacker or defender not found.",
+
+  "PP.Give.Enabled.Name": "Give money: /give command",
+  "PP.Give.Enabled.Hint": "A player types /give <amount> split=N reason=... — the money is taken from their character and a chat card with N shares appears for other players to claim (like the GM's /credit). Requires an active GM.",
+  "PP.Give.CommandDescription": "Give money from your character for others to claim in chat.",
+  "PP.Give.CommandNotes": "The amount is taken from your character and divided into split equal shares (default 1). Any remainder stays with you. You cannot claim your own share.",
+  "PP.Give.Example": "/give {amount} split=3 reason=Loot",
+  "PP.Give.Disabled": "The /give command is disabled in the Podstawowy+ module settings.",
+  "PP.Give.NoCharacter": "You have no assigned character to give money from.",
+  "PP.Give.NoGM": "An active GM is required for money to be claimed.",
+  "PP.Give.BadAmount": "Invalid amount. Example:",
+  "PP.Give.TooSmall": "The amount is too small to divide into {n} shares.",
+  "PP.Give.Remainder": "The remainder ({rest}) stays in your purse.",
+  "PP.Give.Flavor": "{name} gives {total}",
+  "PP.Give.FlavorSplit": "{name} gives {total} ({n} × {share})"
 }

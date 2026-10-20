@@ -88,5 +88,19 @@
   "PP.Slash.NotOwner": "Przewagi może wydać tylko właściciel atakującej postaci.",
   "PP.Slash.NoAdvantage": "{name}: za mało Przewag (jest {have}, potrzeba {need}).",
   "PP.Slash.NoGM": "Potrzebny aktywny MG, żeby nadać Krwawienie.",
-  "PP.Slash.NoActor": "Nie znaleziono atakującego albo obrońcy."
+  "PP.Slash.NoActor": "Nie znaleziono atakującego albo obrońcy.",
+
+  "PP.Give.Enabled.Name": "Daj kasę: komenda /give",
+  "PP.Give.Enabled.Hint": "Gracz wpisuje /give <kwota> split=N reason=... — pieniądze schodzą z jego postaci, a w czacie pojawia się karta z N częściami do odebrania przez współgraczy (jak /credit MG). Wymaga aktywnego MG.",
+  "PP.Give.CommandDescription": "Daj pieniądze ze swojej postaci do odebrania w czacie.",
+  "PP.Give.CommandNotes": "Kwota schodzi z Twojej postaci i dzieli się na split równych części (domyślnie 1). Reszta z dzielenia zostaje u Ciebie. Sam nie możesz odebrać swojej części.",
+  "PP.Give.Example": "/give {amount} split=3 reason=Łup",
+  "PP.Give.Disabled": "Komenda /give jest wyłączona w ustawieniach modułu Podstawowy+.",
+  "PP.Give.NoCharacter": "Nie masz przypisanej postaci, z której można dać pieniądze.",
+  "PP.Give.NoGM": "Potrzebny aktywny MG, żeby można było odbierać pieniądze.",
+  "PP.Give.BadAmount": "Niepoprawna kwota. Przykład:",
+  "PP.Give.TooSmall": "Kwota jest za mała, żeby podzielić ją na {n} części.",
+  "PP.Give.Remainder": "Reszta z podziału ({rest}) zostaje w Twojej sakiewce.",
+  "PP.Give.Flavor": "{name} daje {total}",
+  "PP.Give.FlavorSplit": "{name} daje {total} ({n} × {share})"
 }

@@ -12,6 +12,8 @@ Obecnie moduł zawiera sześć reguł:
 5. **Sieczna** (z „Do broni!”) — Krwawienie przy Ranie Krytycznej i dodatkowe Krwawienie za Przewagi,
 6. **Talent Artystyczny** — Sztuka w każdej Profesji albo −5 PD za Rozwinięcie.
 
+Do tego narzędzie **Daj kasę** (`/give`): gracz rozdaje pieniądze ze swojej postaci przez czat.
+
 Moduł dostarcza jedno kompendium **„Podstawowy+ (WFRP4e)”** z gotową cechą
 **„Same Kości”** oraz gotowym przedmiotem **„Praktyczne narzędzia pracy (Rzemiosło dowolne)”**.
 
@@ -242,6 +244,31 @@ Talent daje jedną Sztukę: gdy postać ma ich kilka, liczy się ta, która już
 ### Ustawienie
 
 - **Talent Artystyczny: Sztuka w Profesji** (świat, domyślnie włączone; zmiana wymaga przeładowania).
+
+---
+
+## Narzędzie — Daj kasę (`/give`)
+
+Systemowe `/credit` (karta w czacie z przyciskami „Otrzymaj”) działa tylko dla MG i daje pieniądze
+znikąd. `/give` robi to samo dla **gracza, z jego własnej sakiewki**:
+
+```
+/give 30zk split=3 reason=Łup
+/give 5ss
+/give 1zk10ss split=2
+```
+
+- Kwota schodzi z **przypisanej postaci** gracza, a w czacie pojawia się karta z `split` równymi
+  częściami (domyślnie 1, czyli całość dla jednej osoby). Każdą część może odebrać inna osoba.
+- Reszta z dzielenia zostaje u dającego: `/give 1zk split=7` daje 7 × 2 ss 10 bp, a 2 bp zostają.
+- Dający nie widzi przycisków na swojej karcie. Nieodebrane części po prostu zostają na karcie.
+- Skróty monet są takie jak w systemowym `/pay` i zależą od języka (po polsku `zk`, `ss`, `bp`;
+  po angielsku `gc`, `ss`, `bp`).
+- Wymaga **aktywnego MG**, bo to jego klient oznacza części jako odebrane.
+
+### Ustawienie
+
+- **Daj kasę: komenda /give** (świat, domyślnie włączone).
 
 ---
 
